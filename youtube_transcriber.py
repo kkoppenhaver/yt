@@ -282,7 +282,7 @@ Examples:
                        help='Skip YouTube transcript and use local transcription only')
     parser.add_argument('--no-local', action='store_true',
                        help='Disable local transcription fallback')
-    parser.add_argument('--model', choices=['tiny', 'base', 'small', 'medium', 'large'],
+    parser.add_argument('--model', choices=['tiny', 'standard', 'small', 'medium', 'large'],
                        default='small', help='Whisper model size for local transcription (default: small)')
     
     args = parser.parse_args()
