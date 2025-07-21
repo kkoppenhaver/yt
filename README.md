@@ -1,4 +1,4 @@
-# YouTube Transcriber
+# YouTube Transcriberrrr
 
 A Python command-line tool that extracts transcripts from YouTube videos with timestamps. When YouTube transcripts aren't available, it automatically falls back to local AI transcription using OpenAI's Whisper.
 
